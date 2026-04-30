@@ -1,0 +1,87 @@
+/**
+ * @name RyanGosling Theme
+ * @version 1.0.6.4
+ * @description Literally Me
+ * @author CapnKitten
+ *
+ * @website http://github.com/CapnKitten
+ * @source https://github.com/CapnKitten/BetterDiscord/blob/master/Themes/Translucence/css/source.css
+ * @donate https://paypal.me/capnkitten
+ * @invite jzJkA6Z
+ */
+
+@import url(https://capnkitten.github.io/BetterDiscord/Themes/Translucence/css/source.css);
+
+:root {
+	/* APP ELEMENTS */
+	--app-bg: url(https://i.imgur.com/TJ0I0U6.jpeg);
+	--app-blur: 4px;
+	--app-margin: 0px;
+	--app-radius: 0px;
+
+	/* ACCENT HSL AND TEXT COLOR SETTINGS */
+        --accent-hue: 205;
+        --accent-saturation: 10%;
+        --accent-lightness: 45%;
+        --accent-opacity: 1;
+        --accent-text-color: hsl(205 45% 0%);
+
+	/* SIDEBARS AND CHAT AREA COLOR SETTINGS */
+	--sidebar-color: hsl(0,0%,0%,0.1);
+	--main-content-color: hsl(12,12%,12%,0.1);
+
+	/* MESSAGE SETTINGS */
+        --message-color: hsl(30,20%,10%,0.5);
+        --message-radius: 8px;
+        --message-padding-top: 8px;
+        --message-padding-side: 8px;
+
+	/* REPLY HSL COLOR SETTINGS */
+	--reply-hue: 226;
+	--reply-saturation: 77.4%;
+	--reply-lightness: 61.8%;
+	--reply-opacity: 1;
+
+	/* TEXTAREA SETTINGS */
+	--textarea-color: 255,255,255;
+	--textarea-alpha: 0.1;
+	--textarea-alpha-focus: 0.15;
+	--textarea-text-color: hsl(0,0%,100%);
+	--textarea-radius: 22px;
+
+	/* CARD SETTINGS */
+	--card-color: hsl(0,0%,0%,0.4);
+	--card-color-hover: hsl(0,0%,0%,0.5);
+	--card-color-select: hsl(0,0%,0%,0.7);
+
+	/* BUTTON SETTINGS */
+	--button-height: 32px;
+	--button-padding: 0 16px;
+	--button-action-color: hsl(205%,0%);
+	--button-radius: 16px;
+}
+
+.visual-refresh.theme-dark {
+	/* TEXT COLOR SETTINGS */
+	--text-primary: hsl(205%,45%);
+	--text-secondary: hsl(205%,50%);
+
+	/* CHANNEL COLOR SETTINGS */
+	--channels-default: hsl(0,0%,50%);
+	--channel-icon: hsl(0,0%,50%);
+
+	/* ICON COLOR SETTINGS */
+	--icon-primary: hsl(0,0%,50%);
+	--icon-secondary: hsl(0,0%,50%);
+	--icon-tertiary: hsl(0,0%,50%);
+
+	/* INTERACTIVE COLOR SETTINGS */
+	--interactive-normal: hsl(0,0%,50%);
+	--interactive-hover: hsl(0,0%,50%);
+	--interactive-active: hsl(0,0%,50%);
+	--interactive-muted: hsl(0,0%,50%);
+
+	/* BACKGROUND MODIFIER SETTINGS */
+	--background-modifier-hover: hsl(0,0%,100%,0.075);
+	--background-modifier-selected: hsl(0,0%,100%,0.125);
+}
