@@ -1,21 +1,19 @@
-:root {
-  --mb-distance: 14px;
-  --mb-time: 0.22s;
-}
-
-/* motion */
-.messageContent-2qWWxC {
-  transition: transform var(--mb-time) cubic-bezier(0.2,0.8,0.2,1);
+/* apply to almost everything */
+*,
+*::before,
+*::after {
+  transition: transform 0.22s cubic-bezier(0.2,0.8,0.2,1), filter 0.22s;
   will-change: transform, filter;
 }
 
-.messageContent-2qWWxC:hover {
-  transform: translateX(var(--mb-distance));
+/* trigger on any hover */
+*:hover {
+  transform: translateX(12px);
   filter: blur(0.6px);
 }
 
-/* multi-frame blending (strong) */
-.messageContent-2qWWxC {
+/* strong multi-frame blending (global) */
+* {
   text-shadow:
     -2px 0 2px rgba(0,0,0,0.35),
     -4px 0 4px rgba(0,0,0,0.30),
