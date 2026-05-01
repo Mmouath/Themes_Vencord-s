@@ -1,0 +1,27 @@
+:root {
+  --mb-distance: 14px;
+  --mb-time: 0.22s;
+}
+
+/* motion */
+.messageContent-2qWWxC {
+  transition: transform var(--mb-time) cubic-bezier(0.2,0.8,0.2,1);
+  will-change: transform, filter;
+}
+
+.messageContent-2qWWxC:hover {
+  transform: translateX(var(--mb-distance));
+  filter: blur(0.6px);
+}
+
+/* multi-frame blending (strong) */
+.messageContent-2qWWxC {
+  text-shadow:
+    -2px 0 2px rgba(0,0,0,0.35),
+    -4px 0 4px rgba(0,0,0,0.30),
+    -6px 0 6px rgba(0,0,0,0.25),
+    -8px 0 8px rgba(0,0,0,0.20),
+    -10px 0 10px rgba(0,0,0,0.16),
+    -12px 0 12px rgba(0,0,0,0.12),
+    -14px 0 14px rgba(0,0,0,0.10);
+}
